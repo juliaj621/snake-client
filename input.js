@@ -30,6 +30,12 @@ const handleUserInput = (key) => {
   if (key === 'd') {
     connection.write("Move: right");
   }
+  if (key === 'i') {
+    connection.write("Say: I'm gonna win!!");
+  }
+  if (key === 'm') {
+    connection.write("Say: My snake is faster!");
+  }
 };
 
 module.exports = { setupInput }
