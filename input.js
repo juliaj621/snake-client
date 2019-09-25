@@ -38,4 +38,4 @@ const handleUserInput = (key) => {
   }
 };
 
-module.exports = { setupInput }
+module.exports = { setupInput };
